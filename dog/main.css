@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+    color: #170c04;
+}
+.nav-link {
+    color: #170c04;
+}
+.container {
+    max-width: 1330px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg {
+    background: url("./img/bg.png") no-repeat right;
+    height: ;
+}
+.cover {
+    background: url("./img/dog.png") no-repeat right;
+    height: 90vh;
+}
+h1 {
+    font-family: "Poppins";
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.btn-primary {
+    border-radius: 24px;
+    background: #e27b3a;
+    border: 0;
+    width: 123px;
+    height: 48px;
+}
+.dog-care_btn {
+    width: 189px;
+}
+.btn-outline-primary {
+    width: 139px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #e27b3a;
+    color: #e27b3a;
+    line-height: 24px;
+}
+.card-link {
+    text-decoration: none;
+    color: #e27b3a;
+}
+.nav-link:hover {
+    color: #e27b3a;
+}
+.card-tittle {
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.product {
+    border: 0;
+}
+
+.tittle-product {
+    font-weight: 500;
+}
+.sm {
+    font-size: 20px;
+}
+
+.product-btn {
+    width: 185px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.dog-care_text {
+    color: #e27b3a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+h2 {
+    font-family: "Poppins";
+    font-size: 33px;
+}
+h4 {
+    font-size: 20px;
+    font-family: Poppins;
+}
+.card-testiomonial {
+    border-radius: 20px;
+    box-shadow: 1px 4px 17px 5px rgba(0, 0, 0, 0.44);
+}
+
+.bg-m {
+    background: #2e96ff;
+    border-radius: 20px;
+    transition:   background-color 0.3s ease-in-out;
+}
+.bg-m:hover{
+    background: #ff9553;
+
+}
+.card-link:hover{
+    color: #2e96ff;
+}
+.input-group {
+    max-width: 500px;
+}
+.btn-primary:hover {
+    background-color: #2e96ff;
+}
+.btn-outline-primary:hover {
+    border: 1px solid #2e96ff;
+    color: #2e96ff;
+    background: transparent;
+}
+.search {
+    border-radius: 10px;
+}
+.text-m {
+    color: aliceblue;
+}
+.footer-link {
+    color: white;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.footer-email {
+    color: #e27b3a;
+}
+.wrapper {
+    max-width: 100%;
+}
+.p-2 {
+    max-width: 100%;
+}
+.blog_img {
+    max-width: 100%;
+}
+
+@media (max-width: 1230px) {
+    .cover {
+        background: url("./img/dog.png") no-repeat center;
+        height: 90vh;
+    }
+}
+@media (max-width: 550px) {
+    .cover{
+        margin-top: 25vw;
+    }
+}
+@media (max-width: 650px) {
+    h1 {
+        font-size: 80px;
+    }
+    .search {
+        width: 50px;
+        font-size: 10px;
+    }
+    .cover {
+        background: transparent;
+        height: 80vh;
+    }
+}
+@media (max-width: 785px) {
+    .wrapper {
+        width: 95%;
+    }
+}
